@@ -1,0 +1,98 @@
+
+        body {
+            background: #f0f2f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container1 {
+            width: 90%;
+            max-width: 1000px; 
+            padding: 10px; 
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px  silver;
+            margin: 80px auto; 
+        }
+        fieldset {
+            border: none;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        .form {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2f2ff2;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            background: #fff;
+            transition: border-color 0.3s;
+        }
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: #007bff;
+        }
+        .form-group input[type="file"] {
+            width: auto;
+        }
+        .form-group.side-by-side {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .form-group.side-by-side .form-group-item {
+            flex: 1;
+            min-width: calc(50% - 20px);
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 780px;
+        }
+        .mandatory {
+            color: red;
+        }
+        .error {
+            color: red;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+        .gender-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .gender-group input[type="radio"] {
+            margin-left: 5px;
+        }
+    
